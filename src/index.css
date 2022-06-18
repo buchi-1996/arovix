@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    @font-face {
+        font-family: 'Gilroy';
+        src: url('../assets/fonts/Gilroy-Regular.ttf') format('truetype');
+
+    }
+    @font-face {
+        font-family: 'Gilroy-Black';
+        src: url('../assets/fonts/Gilroy-Black.ttf') format('truetype');
+
+    }
+    @font-face {
+        font-family: 'Gilroy-Bold';
+        src: url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+
+    }
+    @font-face {
+        font-family: 'Gilroy-Heavy';
+        src: url('../assets/fonts/Gilroy-Heavy.ttf') format('truetype');
+
+    }
+    @font-face {
+        font-family: 'Gilroy-Light';
+        src: url('../assets/fonts/Gilroy-Light.ttf') format('truetype');
+
+    }
+    @font-face {
+        font-family: 'Gilroy-Medium';
+        src: url('../assets/fonts/Gilroy-Medium.ttf') format('truetype');
+
+    }
+
+    @layer{
+        body{
+            font-family: 'Gilroy';
+        }
+
+        h1{
+            font-family: 'Gilroy-Heavy'
+        }
+    }
+
+    .slide-bottom {
+        -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+
+
+/**
+ * ----------------------------------------
+ * animation slide-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  
+  
+    
