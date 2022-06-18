@@ -28,7 +28,7 @@ const Header = () => {
           </div>
           
         </nav>
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-red-400 ml-auto border-b border">
+        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-black ml-auto">
             {isOpen ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
