@@ -33,6 +33,18 @@
         src: url('../assets/fonts/Gilroy-Medium.ttf') format('truetype');
 
     }
+    @font-face {
+        font-family: 'GraphikRegular';
+        src: url('../assets/fonts/GraphikRegular.otf');
+        font-weight: 400;
+
+    }
+
+    @font-face {
+        font-family: 'Boing';
+        src: url('../assets/fonts/GD\ Boing\ Bold.ttf');
+
+    }
 
     @layer{
         body{
@@ -40,7 +52,7 @@
         }
 
         h1{
-            font-family: 'Gilroy-Heavy'
+            font-family: 'Boing'
         }
     }
 
@@ -77,5 +89,24 @@
     }
   }
   
+  .custom-shape-divider-top-1655589105 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1655589105 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 110px;
+}
+
+.custom-shape-divider-top-1655589105 .shape-fill {
+    fill: #FFFFFF;
+}
   
     

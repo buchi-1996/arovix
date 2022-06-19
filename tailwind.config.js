@@ -10,7 +10,9 @@ module.exports = {
       'gbold': ['Gilroy-Bold', 'san-serif'],
       'gmedium': ['Gilroy-Medium', 'san-serif'],
       'glight': ['Gilroy-Light', 'san-serif'],
-      'gheavy': ['Gilroy-Heavy', 'san-serif']
+      'gheavy': ['Gilroy-Heavy', 'san-serif'],
+      'graphikblack': ['GraphikBlack', 'san-serif'],
+      'boing': ['Boing', 'san-serif']
     },
     container: {
       padding: {
