@@ -15,7 +15,7 @@ const Hero = () => {
         </div> */}
                   <div className="my_work">
                   <h1 className="text-5xl text-center leading-tight font-gmedium md:text-left max-w-3xl pb-8 mx-auto">We Build Digital Arts</h1>
-                  <p className="text-xl mb-8 font-medium left-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolorem illo corrupti eaque eum minus perferendis eligendi explicabo amet, nulla repellendus vel error fugit! Maiores incidunt dignissimos nobis adipisci totam.</p>
+                  <p className="text-[16px] md:text-xl text-center md:text-left mb-8 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolorem illo corrupti eaque eum minus perferendis eligendi explicabo amet, nulla repellendus vel error fugit! Maiores incidunt dignissimos nobis adipisci totam.</p>
                   <Button text="Join the league" />
                   
                  </div>

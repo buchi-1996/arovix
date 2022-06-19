@@ -12,16 +12,16 @@ const Header = () => {
           alt="logo"
           className="object-contain w-20 h-auto"
         /> */}
-        <h1 className="text-4xl">arovix</h1>
+        <h1 className="text-4xl"><Link to="/">arovix</Link></h1>
         <nav className={`${isOpen ? "flex" : "hidden"} md:flex flex-col slide-bottom md:animate-none inset-x-0 -top-8 md:top-0 md:h-full absolute md:relative md:flex-row p-8 md:p-0 bg-white`}>
         
           <div className="navigation md:flex  md:items-center divide-y-0 md:divide-y-0 md:divide-x space-y-4 md:space-y-0 md:space-x-6">
             <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-10 font-gmedium">
-              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link to={'/'}>Home</Link></li>
-              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link to={'/about'}>About</Link></li>
-              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link to={'/sales'}>Sales</Link></li>
-              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link to={'/web'}>Web3.0</Link></li>
-              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link to={'/contact'}>Contact</Link></li>
+              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link className="block" to={'/'}>Home</Link></li>
+              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link className="block" to={'/about'}>About</Link></li>
+              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link className="block" to={'/sales'}>Sales</Link></li>
+              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link className="block" to={'/web'}>Web3.0</Link></li>
+              <li onClick={() => setIsOpen(!isOpen)} className="cursor-pointer hover:text-blue-300"><Link className="block" to={'/contact'}>Contact</Link></li>
             </ul>
             <div className="pt-5 md:pt-0 md:pl-5 flex flex-row items-center space-x-3">
               <Button text="Get Started"/>

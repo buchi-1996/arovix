@@ -2,13 +2,13 @@ import React, { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const images = [
-  { title: "Digital Art", url: "../../img/pexels-wendel-moretti-1937738.jpg" },
-  { title: "Digital Art", url: "../../img/pexels-dids-2911527.jpg" },
-  { title: "Digital Art", url: "../../img/pexels-dids-3705473.jpg" },
-  { title: "Digital Art", url: "../../img/pexels-ferbugs-3383956.jpg" },
-  { title: "Digital Art", url: "../../img/pexels-torsten-dettlaff-971546.jpg" },
-  { title: "Digital Art", url: "../../img/pexels-anni-roenkae-3418400.jpg" },
-  { title: "Digital Art", url: "../../img/pexels-anni-roenkae-3418400.jpg" },
+  { title: "Digital Art", url: "../../img/pexels-wendel-moretti-1937738.jpg",link: "/about" },
+  { title: "Digital Art", url: "../../img/pexels-dids-2911527.jpg",link: "/about" },
+  { title: "Digital Art", url: "../../img/pexels-dids-3705473.jpg",link: "/about" },
+  { title: "Digital Art", url: "../../img/pexels-ferbugs-3383956.jpg",link: "/about" },
+  { title: "Digital Art", url: "../../img/pexels-torsten-dettlaff-971546.jpg",link: "/about" },
+  { title: "Digital Art", url: "../../img/pexels-anni-roenkae-3418400.jpg",link: "/about" },
+  { title: "Digital Art", url: "../../img/pexels-anni-roenkae-3418400.jpg",link: "/about" },
 ];
 
 const Carousel = () => {
