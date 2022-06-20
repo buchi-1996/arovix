@@ -7,6 +7,11 @@ import Footer from "./components/Footer";
 import Sales from "./pages/Sales";
 import Contact from "./pages/Contact";
 import Web from "./pages/Web";
+import Internet from "./pages/Internet";
+import Darkweb from "./pages/Darkweb";
+import Cybercrime from "./pages/Cybercrime";
+import Function from "./pages/Function";
+import Cybersecurity from "./pages/Cybersecurity";
 
 function App() {
   return (
@@ -19,6 +24,11 @@ function App() {
         <Route path="/sales" element={<Sales />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/web" element={<Web />}></Route>
+        <Route path="/internet" element={<Internet />}></Route>
+        <Route path="/darkweb" element={<Darkweb />}></Route>
+        <Route path="/function-of-the-internet" element={<Function />}></Route>
+        <Route path="/cybercrime" element={<Cybercrime />}></Route>
+        <Route path="/cybersecurity" element={<Cybersecurity />}></Route>
       </Routes>
       </div>
       <Footer />

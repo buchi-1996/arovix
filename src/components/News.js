@@ -12,8 +12,11 @@ const News = () => {
         <div class="boxes w-full flex flex-col space-y-10">
           <div class="box border px-5 py-8 w-full rounded">
             <div>
-              <h4 class="font-bold text-2xl">Software Engineer</h4>
-              <p class="text-[16px] mt-1">Thaleni Technologies</p>
+             <div className='flex flex-row items-center gap-4 mb-4'>
+             <div className='rounded-full border-gray-400 bg-ray-500 border-2 w-14 h-14 flex flex-col items-center justify-center'>JD</div>
+              <h4 class="font-bold text-2xl">John Doe</h4>
+              </div>
+            <p class="text-[16px] mt-1">Thaleni Technologies</p>
               <p class="text-[15px] font-medium mt-1">Abuja</p>
             </div>
             <ul class="list-disc ml-6 text-[16px] my-3 flex flex-col space-y-2">
@@ -35,7 +38,10 @@ const News = () => {
           </div>
           <div class="box border px-5 py-8 w-full rounded">
             <div>
-              <h4 class="font-bold text-2xl">Backend Engineer</h4>
+            <div className='flex flex-row items-center gap-4 mb-4'>
+             <div className='rounded-full border-gray-400 bg-ray-500 border-2 w-14 h-14 flex flex-col items-center justify-center'>JD</div>
+              <h4 class="font-bold text-2xl">John Doe</h4>
+              </div>
               <p class="text-[16px] mt-1">Thaleni Technologies</p>
               <p class="text-[15px] font-medium mt-1">Abuja</p>
             </div>
@@ -58,7 +64,10 @@ const News = () => {
           </div>
           <div class="box border px-5 py-8 w-full rounded">
             <div>
-              <h4 class="font-bold text-2xl">Front End Developer</h4>
+            <div className='flex flex-row items-center gap-4 mb-4'>
+             <div className='rounded-full border-gray-400 bg-ray-500 border-2 w-14 h-14 flex flex-col items-center justify-center'>JD</div>
+              <h4 class="font-bold text-2xl">John Doe</h4>
+              </div>
               <p class="text-[16px] mt-1">Thaleni Technologies</p>
               <p class="text-[15px] font-medium mt-1">Abuja</p>
             </div>
@@ -82,8 +91,11 @@ const News = () => {
         </div>
         <div class="w-full border px-5 md:px-10 py-8 rounded">
           <div>
-            <h4 class="font-bold text-2xl">Software Engineer</h4>
-            <p class="text-[16px] mt-1">Thaleni Technologies</p>
+          <div className='flex flex-row items-center gap-4 mb-4'>
+             <div className='rounded-full border-gray-400 bg-ray-500 border-2 w-14 h-14 flex flex-col items-center justify-center'>JD</div>
+              <h4 class="font-bold text-2xl">John Doe</h4>
+              </div>
+            <p class="text-[16px] mt-1">Arovix Digital designs</p>
             <p class="text-[15px] font-medium mt-1">Full time</p>
           </div>
           <a href="/" class="secondary-btn py-3 w-full my-5 block">
